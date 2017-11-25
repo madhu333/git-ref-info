@@ -1,0 +1,64 @@
+Version Control System:
+https://scotch.io/tutorials/using-git-hooks-in-your-development-workflow
+https://www.atlassian.com/git?utm_source=bitbucket&utm_medium=link&utm_campaign=dashboard_blank_slate&utm_content=git_tutorials
+
+VCS helps to devlopers to work together and maitain the complete history of their work.
+
+Fuctinonality of VCS:
+
+1. Allow developers to work simultenously
+2. Doesnt allow overwriting each other changes
+3. Maintain history of every change.
+
+Types of VCS:
+
+1. Centralized Version Control Sysytem
+2. Distrubuted Version Control System.
+
+1. Centralized Version Control Sysytem: Central server to store all files and enables team colllabarations.
+
+Example: CVS,SVN,Clearcase,Perforce.
+
+disadvantage:
+
+1. Failure of centarl server(single point of failure) .i.e. if server goes down for an hours in that time no one can collabrate at all.
+2. If the disk of cental server get corrupted and doent have proper back also then loose the entire history of the project.
+
+2. Distrubuted Version Control System.: this clients not only check out the snapshot of the directory but they also fully mirror of the repository.
+
+Example: GIT,Mercury
+
+Advanatge:
+
+1. If server goes dowen or disk failure happen then we can copied back to server to restore.
+2. Git doesnt rely the server that's why we can perform many operation in offline(commit,view log, create branch, other operations)
+3. Rerquire network when we publish and get the latest changes.
+4. Free and Open source : Git released under GPL open source license 
+5. Fast and small: It gives huge benifits interms of speed because of most of tthe operations performed locally.
+6. Implicity backup: 
+7. Security:
+8. No need of powerfull hardware:
+9. Easier branching:
+
+what is the GIT:
+
+
+
+
+
+Q&A:
+
+1. How can we know if a branch is already merged on to master?
+
+git branch --merged master --list branches merged into master
+git branch --merged -- Lists branches merged into HEAD(current branch)
+git branch --no-merged ---lists branchs that have not been merged
+
+2. what is the purpose of git stash?
+
+https://www.toptal.com/git/interview-questions
+
+
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud?utm_medium=engagement-engine&ep_click_type=primary
+
+
